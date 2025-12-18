@@ -1,0 +1,26 @@
+# Web Scraping
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+
+# Data Processing
+pandas==2.1.4
+
+# Keyword Extraction
+rake-nltk==1.0.6
+nltk==3.8.1
+
+# API Development
+flask==3.0.0
+flask-cors==4.0.0
+
+# Text Similarity (for Part B)
+scikit-learn==1.3.2
+
+# Progress Bar
+tqdm==4.66.1
+
+# For handling concurrent requests
+aiohttp==3.9.1
+asyncio==3.4.3
+numpy<2.0

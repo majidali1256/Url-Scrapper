@@ -1,0 +1,21 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.idea/
+.vscode/
+
+# Debug files
+debug_*.html
+debug_*.py
+
+# Large files (optional - remove if you want to include)
+# 50k Urls.txt
+# urls.txt
