@@ -201,10 +201,10 @@ def search_articles(csv_file, query, top_k=10):
         return None
     
     df['search_text'] = (
-        df['title'].fillna('') + ' ' +
-        df['subtitle'].fillna('') + ' ' +
-        df['text'].fillna('') + ' ' +
-        df['keywords'].fillna('')
+        df['title'].fillna('').astype(str) + ' ' +
+        df['subtitle'].fillna('').astype(str) + ' ' +
+        df['text'].fillna('').astype(str) + ' ' +
+        df['keywords'].fillna('').astype(str)
     )
     
     vectorizer = TfidfVectorizer(max_features=5000, stop_words='english', ngram_range=(1, 2))
